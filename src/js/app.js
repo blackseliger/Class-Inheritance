@@ -1,4 +1,7 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-console */
 // TODO: write your code here
+// eslint-disable-next-line max-classes-per-file
 class Character {
   constructor(name, attack, defense) {
     this.name = name;
@@ -34,3 +37,9 @@ class Daemon extends Character {
 
 const test1 = new Daemon('Daemon', 10, 40);
 console.log(test1);
+
+// {name: "Daemon", attack: 10, defense: 40}
+export default Character;
+export {
+  Bowman, Swordsman, Magician, Undead, Zombie, Daemon,
+};
