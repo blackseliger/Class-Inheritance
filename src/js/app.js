@@ -16,7 +16,6 @@ class Bowman extends Character {
   constructor(name, attack, defense) {
 	  super(name, 25, 25);
   }
-
 }
 
 class Swordsman extends Character {
@@ -35,7 +34,6 @@ class Undead extends Character {
   constructor(name, attack, defense) {
 	  super(name, 25, 25);
   }
-
 }
 
 class Zombie extends Character {
