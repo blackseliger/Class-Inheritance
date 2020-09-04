@@ -1,3 +1,5 @@
+/* eslint-disable no-tabs */
+/* eslint-disable no-mixed-spaces-and-tabs */
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
 // TODO: write your code here
@@ -11,32 +13,43 @@ class Character {
 }
 
 class Bowman extends Character {
+  constructor(name, attack, defense) {
+	  super(name, 25, 25);
+  }
 
 }
 
 class Swordsman extends Character {
-
+  constructor(name, attack, defense) {
+	  super(name, 40, 10);
+  }
 }
 
 class Magician extends Character {
-
+  constructor(name, attack, defense) {
+	  super(name, 10, 40);
+  }
 }
 
 class Undead extends Character {
+  constructor(name, attack, defense) {
+	  super(name, 25, 25);
+  }
 
 }
 
 class Zombie extends Character {
-
+  constructor(name, attack, defense) {
+	  super(name, 40, 10);
+  }
 }
 
 class Daemon extends Character {
-
+  constructor(name, attack, defense) {
+	  super(name, 10, 40);
+  }
 }
 
-
-const test1 = new Daemon('Daemon', 10, 40);
-console.log(test1);
 
 // {name: "Daemon", attack: 10, defense: 40}
 export default Character;
